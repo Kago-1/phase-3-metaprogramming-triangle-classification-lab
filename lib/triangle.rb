@@ -2,6 +2,7 @@ require 'pry'
 
 class Triangle
   #write code here
+  @@sides = []
   def initialize(side1,side2,side3)
     @@sides = [side1,side2,side3]
     @@sides.sort!
@@ -28,4 +29,7 @@ end
 
 # arr1 = [1,1,1,2,3,4,576,5,8]
 # p arr1.uniq.sort
-# p arr1.sort
+# p arr1.sort   
+# p arr1.sort!                                                                                                        
+
+# binding.pry
